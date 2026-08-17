@@ -2,10 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* border: 1px solid red; */
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --green: #b1ecb1;
+  --light-green: #f0faf0;
 }
 
 body {
-    background-color: #fff;
-    color: #000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
