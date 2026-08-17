@@ -41,7 +41,21 @@ a {
 
 @media screen and (min-width: 1000px) {
   .recipe {
-    width: 30%;
+    width: 470px;
+    padding: 0 25px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .recipe {
+    width: 330px;
+    padding: 0 25px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .recipe {
+    width: 385px;
     padding: 0 25px;
   }
 }
