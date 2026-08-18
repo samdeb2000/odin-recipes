@@ -9,9 +9,9 @@
   --black: #000;
   --white: #fff;
   --green: #b1ecb1;
-  --light-green: #f0faf0;
+  --light-green: #dcf8dc;
 }
 
 body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
