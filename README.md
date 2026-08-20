@@ -11,10 +11,13 @@ This project demonstrates the following skills:
 - Deploy and clone Git repositories
 - Write clear project documentation in a README.md file
 - Write useful Git commit messages
-- HTML basics: use boilerplate code, headings, paragraphs, links, and images
+- Create webpages with basic html
 - Give proper attribution to external resources
 - Publish and view the site on the web with GitHub Pages
+- Style webpages with external CSS
+-
 
 ## Built With
 
 - HTML5
+- CSS
