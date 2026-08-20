@@ -5,24 +5,21 @@ footer {
   text-align: center;
 }
 
-/* Header */
 header {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .title {
   font-size: 72px;
   font-weight: 100;
   color: var(--black);
-  padding: 60px 0 40px;
+  padding: 60px 0 20px;
 }
 
 .subtitle {
   font-size: 22px;
-  padding: 0 20px 60px;
+  padding: 0 20px 40px;
 }
-
-/* Main */
 
 main {
   margin: 0 20px 0;
@@ -38,24 +35,22 @@ main {
   width: 100%;
 }
 
-.recipe .recipe-name {
+.recipe-name {
   padding: 15px 0;
   font-size: 18px;
   text-align: center;
-  background-color: var(--light-green);
-}
-
-a {
-  text-decoration: none;
   color: var(--black);
+  background-color: var(--terracotta);
 }
 
-a:hover {
-  text-decoration: underline;
-  opacity: 0.9;
+.recipe a {
+  text-decoration: none;
 }
 
-/* Footer */
+.recipe-name:hover {
+  color: var(--white);
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -75,6 +70,10 @@ footer {
 
 .footer-links li a {
   text-decoration: underline;
+}
+
+.footer-links li a:hover {
+  color: var(--white);
 }
 
 /* Responsive CSS for smaller screen */

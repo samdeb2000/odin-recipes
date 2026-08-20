@@ -2,16 +2,30 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
 }
 
 :root {
-  --black: #000;
-  --white: #fff;
-  --green: #b1ecb1;
-  --light-green: #dcf8dc;
+  --black: #222222;
+  --white: #faf8f5;
+  --green: #8fa89b;
+  --terracotta: #d06942;
 }
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+h1,
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  color: var(--black);
+}
+
+a:hover {
+  color: var(--terracotta);
 }

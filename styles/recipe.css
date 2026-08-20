@@ -1,0 +1,131 @@
+header,
+footer {
+  background-color: var(--green);
+  width: 100%;
+}
+
+header {
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+header a {
+  background-color: var(--terracotta);
+  color: var(--white);
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+header a:hover {
+  background-color: var(--white);
+  color: var(--terracotta);
+}
+
+main {
+  width: 700px;
+  margin: auto;
+}
+
+h1 {
+  margin: 0 0 30px;
+  text-align: center;
+  font-size: 48px;
+}
+
+img {
+  width: 100%;
+  margin: 0 0 40px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: var(--terracotta);
+  margin: 0 0 15px;
+  font-size: 32px;
+}
+
+main p,
+main ul,
+main ol {
+  margin: 0 0 30px;
+  font-size: 18px;
+}
+
+main ul,
+main ol {
+  margin-left: 20px;
+}
+
+p,
+li {
+  line-height: 24px;
+}
+
+.recipe-label {
+  color: var(--terracotta);
+  font-weight: bold;
+}
+
+hr {
+  margin: 40px 0;
+  border: 1px dashed var(--terracotta);
+}
+
+footer {
+  text-align: center;
+  position: static;
+  bottom: 0;
+  margin-top: 30px;
+}
+
+footer p {
+  margin-bottom: 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+footer a:hover {
+    color: var(--white);
+}
+
+/* Responsive CSS for smaller screen */
+@media (max-width: 800px) {
+  header {
+    padding: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  main {
+    width: 80%;
+    margin: auto;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 38px;
+  }
+
+  img {
+    margin: 0 0 30px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  main p,
+  ul,
+  ol {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
