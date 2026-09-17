@@ -1,4 +1,4 @@
-# Odin Recipes
+# TOP Project - Odin Recipes
 
 A simple recipe website built as part of [The Odin Project's](https://www.theodinproject.com/) Foundations curriculum.
 
